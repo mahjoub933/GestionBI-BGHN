@@ -50,5 +50,7 @@ public class SMSController {
     private String getTimeStamp() {
        return DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss").format(LocalDateTime.now());
     }
+    
+    System.out.println("test test test");
 }
 
