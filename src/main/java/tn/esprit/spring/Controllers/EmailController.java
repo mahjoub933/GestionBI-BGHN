@@ -23,6 +23,5 @@ public class EmailController {
 		return emailser.sendEmail(email.getSubject(), email.getMessage(), email.getTo());
 	}
 	
-	System.out.println("done");
 }
 
